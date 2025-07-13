@@ -32,6 +32,10 @@
 .loading-logo img {
   max-height: 80px;
   width: auto;
+  max-width: 70vw;
+  height: auto;
+  display: block;
+  margin: 0 auto;
 }
 
 .loading-spinner {
@@ -1085,5 +1089,9 @@ body {
   
   .stats__label {
     font-size: 1rem;
+  }
+  .loading-logo img {
+    max-width: 90vw;
+    max-height: 20vh;
   }
 }
